@@ -51,7 +51,7 @@
       
       document.getElementById('fb_pic').innerHTML = $('#fb_pic').attr('src',response.picture.data.url);
       document.getElementById('fb_name').innerHTML = 'Hello '+response.name;
-	    document.getElementById('fb_email').innerHTML = 'Email: '+response.email;
+      document.getElementById('fb_email').innerHTML = 'Email: '+response.email;
       document.getElementById('fb_birthday').innerHTML = 'Birthday: '+response.birthday;
       document.getElementById('fb_location').innerHTML = 'Location: '+response.location.name;
     });
